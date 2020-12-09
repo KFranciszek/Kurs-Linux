@@ -1,2 +1,6 @@
+Komendy 
 cat - pokaż zawartość pliku bez edycji 
 vi - otwórz plik do edycji i innych czyności 
+
+Lokalizacje 
+login.defs - przechowywanie haseł, szyfrowanie 
