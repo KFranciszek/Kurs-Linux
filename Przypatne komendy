@@ -1,6 +1,14 @@
 Komendy 
 cat - pokaż zawartość pliku bez edycji 
 vi - otwórz plik do edycji i innych czyności 
+find /home -xdev -nouser  - szukanie plików po usuniętych userach 
 
 Lokalizacje 
 login.defs - przechowywanie haseł, szyfrowanie 
+vi /etc/sshhd_config   - konfiguracja ssh
+
+Zarządzanie userami 
+find /home -xdev -nouser  - szukanie plików po usuniętych userach  
+usermod -L user  - blokowanie usera 
+usermod -U user  - odblokowanie usera 
+vi /etc/sshhd_config --> 
