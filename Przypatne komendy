@@ -3,6 +3,7 @@ cat - pokaż zawartość pliku bez edycji
 vi - otwórz plik do edycji i innych czyności 
 find /home -xdev -nouser  - szukanie plików po usuniętych userach 
 systemctl restart [[usuługa]]
+dnf install [[link lub nazwa]]
 
 Lokalizacje 
 login.defs - przechowywanie haseł, szyfrowanie 
