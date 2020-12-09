@@ -13,8 +13,8 @@ Zarządzanie userami
 find /home -xdev -nouser  - szukanie plików po usuniętych userach  
 usermod -L user  - blokowanie usera 
 usermod -U user  - odblokowanie usera 
-vi /etc/ssh/sshhd_config --> Dodając DenyUsers [nazwa usera] blokujemy usera po ssh + restart usługi  sshd.service 
-vi /etc/ssh/sshhd_config --> Dodając AlloUsers [nazwa usera] zgoda usera po ssh + restart usługi  sshd.service 
+vi /etc/ssh/sshd_config --> Dodając DenyUsers [nazwa usera] blokujemy usera po ssh + restart usługi  sshd.service 
+vi /etc/ssh/sshd_config --> Dodając AlloUsers [nazwa usera] zgoda usera po ssh + restart usługi  sshd.service 
 
 Kopie/backup 
 rsync - narzędzie do backup
