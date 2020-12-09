@@ -11,4 +11,4 @@ Zarządzanie userami
 find /home -xdev -nouser  - szukanie plików po usuniętych userach  
 usermod -L user  - blokowanie usera 
 usermod -U user  - odblokowanie usera 
-vi /etc/ssh/sshhd_config --> 
+vi /etc/ssh/sshhd_config --> Dodając DenyUsers [nazwa usera] blokujemy usera po ssh
