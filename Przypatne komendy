@@ -5,10 +5,10 @@ find /home -xdev -nouser  - szukanie plików po usuniętych userach
 
 Lokalizacje 
 login.defs - przechowywanie haseł, szyfrowanie 
-vi /etc/sshhd_config   - konfiguracja ssh
+vi /etc/ssh/sshhd_config   - konfiguracja ssh
 
 Zarządzanie userami 
 find /home -xdev -nouser  - szukanie plików po usuniętych userach  
 usermod -L user  - blokowanie usera 
 usermod -U user  - odblokowanie usera 
-vi /etc/sshhd_config --> 
+vi /etc/ssh/sshhd_config --> 
