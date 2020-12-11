@@ -20,6 +20,8 @@ passwd [[user]] nadaj hasło
 find /home -xdev -nouser  - szukanie plików po usuniętych userach  
 usermod -L user  - blokowanie usera 
 usermod -U user  - odblokowanie usera 
+chown - zmiana właścielswa
+chownmod - zmiana  praw
 vi /etc/ssh/sshd_config --> Dodając DenyUsers [nazwa usera] blokujemy usera po ssh + restart usługi  sshd.service 
 vi /etc/ssh/sshd_config --> Dodając AlloUsers [nazwa usera] zgoda usera po ssh + restart usługi  sshd.service 
 
