@@ -6,12 +6,17 @@ find /home -xdev -nouser  - szukanie plików po usuniętych userach
 systemctl restart [[usuługa]]
 dnf install [[link lub nazwa]]
 
+
+
 Lokalizacje 
 login.defs - przechowywanie haseł, szyfrowanie 
 vi /etc/ssh/sshhd_config   - konfiguracja ssh
 cat /etc/passwd - lista useró i grup
+mkdri - załóż nowy katalog
 
 Zarządzanie userami 
+adduser [[nazwa usera]] - założ usera
+passwd [[user]] nadaj hasło 
 find /home -xdev -nouser  - szukanie plików po usuniętych userach  
 usermod -L user  - blokowanie usera 
 usermod -U user  - odblokowanie usera 
