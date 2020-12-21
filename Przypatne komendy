@@ -28,3 +28,7 @@ vi /etc/ssh/sshd_config --> Dodając AlloUsers [nazwa usera] zgoda usera po ssh 
 Kopie/backup 
 rsync - narzędzie do backup
 rsync -av [[katalog do bacaku]] [[miejsce do backupu]]  np  rsync -av /home/franek/uprawnienia/ /home/franek/backup  
+
+Zarządzanie sprzętem na serwerach 
+lsblk - sprawdzanie jakie mamy dostępne dyski 
+
