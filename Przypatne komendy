@@ -34,6 +34,7 @@ lsblk - sprawdzanie jakie mamy dostępne dyski
 
 Sieć/Firewall
 sudo firewall-cmd --state  status działania firewall
+sudo systemctl status firewalld status ctl
 sudo firewall-cmd --reload  przeładuj np. po dodaniu nowej raeguły 
 sudo firewall-cmd --get-default-zone  - pokaż domyślny firewall
 sudo firewall-cmd --get-zones  pokaż wszystkie strefy 
