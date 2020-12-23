@@ -32,3 +32,9 @@ rsync -av [[katalog do bacaku]] [[miejsce do backupu]]  np  rsync -av /home/fran
 Zarządzanie sprzętem na serwerach 
 lsblk - sprawdzanie jakie mamy dostępne dyski 
 
+Sieć/Firewall
+sudo firewall-cmd --get-default-zone  - pokaż domyślny firewall
+sudo firewall-cmd --get-zones  pokaż wszystkie strefy 
+
+
+
