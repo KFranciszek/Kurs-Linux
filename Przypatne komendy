@@ -34,13 +34,15 @@ lsblk - sprawdzanie jakie mamy dostępne dyski
 
 Sieć/Firewall
 sudo firewall-cmd --state  status działania firewall
+sudo firewall-cmd --reload  przeładuj np. po dodaniu nowej raeguły 
 sudo firewall-cmd --get-default-zone  - pokaż domyślny firewall
 sudo firewall-cmd --get-zones  pokaż wszystkie strefy 
 sudo firewall-cmd --get-active-zone  jaka sieć korzystra z jakiego firewalla
 sudo firewall-cmd --zone=public --list-all -  pokaż reguły na określonym firewall
 sudo firewall-cmd --list-all-zones  pokaż reguły na wszystkich strefach firewall
 sudo firewall-cmd --permanent --zone=public --add-service=zabbix-agent  dodanie do firewall wyjątków na dane usługi np. zabbix
- 
+sudo firewall-cmd --permanent  --zone=public  --add-port=80/tcp  dodaj port do reguły firewall
+
  
 
 
