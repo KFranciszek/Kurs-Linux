@@ -35,6 +35,7 @@ lsblk - sprawdzanie jakie mamy dostępne dyski
 Sieć/Firewall
 sudo firewall-cmd --get-default-zone  - pokaż domyślny firewall
 sudo firewall-cmd --get-zones  pokaż wszystkie strefy 
+sudo firewall-cmd --get-active-zone  jaka sieć korzystra z jakiego firewalla
 
 
 
