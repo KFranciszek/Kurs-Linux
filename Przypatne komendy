@@ -45,6 +45,14 @@ sudo firewall-cmd --list-all-zones  pokaż reguły na wszystkich strefach firewa
 sudo firewall-cmd --permanent --zone=public --add-service=zabbix-agent  dodanie do firewall wyjątków na dane usługi np. zabbix
 sudo firewall-cmd --permanent  --zone=public  --add-port=80/tcp  dodaj port do reguły firewall
 
+SSH
+ssh.service 
+
+Network Menager
+NetworkMenager.service 
+
+nmcli networking off; nmcli networking on   wyłączenie/właczenie usług sieciowych np. po zmianie konfiguracji 
+
  
 
 
