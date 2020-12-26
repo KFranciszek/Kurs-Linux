@@ -70,5 +70,9 @@ Dyski
 sudo fdisk -l  informacje o dyskach/partycjach 
 lsblk - pokaż dyski
 sudo fdisk /dev/sdb - konfiguracja partycji/dysków
+sudo partprobe  - powiedz systemowi że zamontowałeś nową partycje 
 
+RAM
+cat /proc/meminfo Pokaż ramy szczegóły
+free -m - h  ile użytego wolnego ramu masz 
 
