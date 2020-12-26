@@ -36,7 +36,7 @@ Sieć
 ip link show - pokaż interfejsy sieciowe
 ethtool enp0s8  - informacje o konkretnym łączu np. szybkości 
 ip r - przez mac adres przechodzi sieć 
-
+traceroute [[ip/link/www]] - śledzenie ruchu sieciowego do X 
 
 Firewall
 sudo firewall-cmd --state  status działania firewall
