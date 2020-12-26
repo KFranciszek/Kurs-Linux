@@ -32,7 +32,13 @@ rsync -av [[katalog do bacaku]] [[miejsce do backupu]]  np  rsync -av /home/fran
 Zarządzanie sprzętem na serwerach 
 lsblk - sprawdzanie jakie mamy dostępne dyski 
 
-Sieć/Firewall
+Sieć
+ip link show - pokaż interfejsy sieciowe
+ethtool enp0s8  - informacje o konkretnym łączu np. szybkości 
+ip r - przez mac adres przechodzi sieć 
+
+
+Firewall
 sudo firewall-cmd --state  status działania firewall
 sudo systemctl status firewalld status ctl
 sudo firewall-cmd --get-log-denied  - pokaż logi
