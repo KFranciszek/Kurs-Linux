@@ -5,7 +5,7 @@ visudo - sprawdza poprawność pliku
 find /home -xdev -nouser  - szukanie plików po usuniętych userach 
 systemctl restart [[usuługa]]
 dnf install [[link lub nazwa]]
-
+top - lista usług, ile wykorzystuje ile ich jest itp 
 
 
 Lokalizacje 
