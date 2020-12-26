@@ -66,6 +66,9 @@ sudo lsof -i :22  pokaż co kokretnie dzieje się na jakim porcie np. jakie usł
 ps aux | grep 'pid 1429' - pokaż dokładne informacje o procesie 
 
 
+Dyski
+sudo fdisk -l  informacje o dyskach/partycjach 
+lsblk - pokaż dyski
  
 
 
