@@ -73,6 +73,10 @@ sudo lsof -i :22  pokaż co kokretnie dzieje się na jakim porcie np. jakie usł
 ps aux | grep 'pid 1429' - pokaż dokładne informacje o procesie 
 
 
+Proxy
+sudo dnf install squid instalacja proxy 
+sudo vi /etc/squid/squid.conf konfiguracja proxy
+
 Dyski
 sudo fdisk -l  informacje o dyskach/partycjach 
 lsblk - pokaż dyski
