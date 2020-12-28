@@ -10,6 +10,8 @@ top - lista usług, ile wykorzystuje ile ich jest itp
 Usługi 
 ls  /usr/lib/systemd/system  lista usług nazwy i ścieżki
 sudo systemctl list-unit-files --type service  lista usług wraz ze statusem  
+ls -la /etc/systemd/system
+
 
 Lokalizacje 
 login.defs - przechowywanie haseł, szyfrowanie 
