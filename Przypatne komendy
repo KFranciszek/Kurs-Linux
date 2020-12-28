@@ -80,3 +80,4 @@ Wąyki procesy
 pstree - drzewo procesów
 ps - wszystkie procesy 
 top - na bieżąco jakie procesy ile zużywają sprzętu 
+ps -eo cmd,ppid,%CPU -  pokaż CPU na procesach 
