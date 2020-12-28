@@ -11,6 +11,8 @@ Usługi
 ls  /usr/lib/systemd/system  lista usług nazwy i ścieżki
 sudo systemctl list-unit-files --type service  lista usług wraz ze statusem  
 ls -la /etc/systemd/system
+systemctl cat [[usługa]] np. sshd.service  - pełne informacje o usłudze
+
 
 
 Lokalizacje 
