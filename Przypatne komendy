@@ -76,3 +76,7 @@ RAM
 cat /proc/meminfo Pokaż ramy szczegóły
 free -m - h  ile użytego wolnego ramu masz 
 
+Wąyki procesy 
+pstree - drzewo procesów
+ps - wszystkie procesy 
+top - na bieżąco jakie procesy ile zużywają sprzętu 
