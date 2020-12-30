@@ -83,7 +83,8 @@ lsblk - pokaż dyski
 sudo fdisk /dev/sdb - konfiguracja partycji/dysków
 sudo partprobe  - powiedz systemowi że zamontowałeś nową partycje 
 df -h /usr/src pokaż rozmiar filesystem root
-
+sudo  find / -xdev -type f -size +500M znajdz duże pliki
+ 
 RAM
 cat /proc/meminfo Pokaż ramy szczegóły
 free -m - h  ile użytego wolnego ramu masz 
