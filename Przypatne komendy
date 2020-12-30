@@ -82,6 +82,7 @@ sudo fdisk -l  informacje o dyskach/partycjach
 lsblk - pokaż dyski
 sudo fdisk /dev/sdb - konfiguracja partycji/dysków
 sudo partprobe  - powiedz systemowi że zamontowałeś nową partycje 
+df -h /usr/src pokaż rozmiar filesystem root
 
 RAM
 cat /proc/meminfo Pokaż ramy szczegóły
