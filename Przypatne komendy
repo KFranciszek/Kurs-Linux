@@ -94,3 +94,6 @@ pstree - drzewo procesów
 ps - wszystkie procesy 
 top - na bieżąco jakie procesy ile zużywają sprzętu 
 ps -eo cmd,ppid,%CPU -  pokaż CPU na procesach 
+
+LOGI 
+sudo du -shc /var/log/*  zajętość logów 
